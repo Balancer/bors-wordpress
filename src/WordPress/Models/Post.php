@@ -1,6 +1,6 @@
 <?php
 
-namespace \B2\WordPress;
+namespace B2\WordPress;
 
 class Post extends ObjectDb
 {
@@ -14,7 +14,7 @@ class Post extends ObjectDb
 			'create_ts' => 'UNIX_TIMESTAMP(`post_date`)',
 			'post_date_gmt',
 			'post_content' => ['type' => 'markdown'],
-			'post_title' =>,
+			'post_title',
 			'post_excerpt' => ['type' => 'markdown'],
 			'post_status',
 			'comment_status',
