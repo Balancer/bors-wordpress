@@ -1,6 +1,6 @@
 <?php
 
-namespace B2\WordPress;
+namespace B2\WordPress\Models;
 
 class ObjectDb extends \bors_object_db
 {

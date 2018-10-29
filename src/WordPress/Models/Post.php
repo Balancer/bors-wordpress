@@ -1,6 +1,6 @@
 <?php
 
-namespace B2\WordPress;
+namespace B2\WordPress\Models;
 
 class Post extends ObjectDb
 {
